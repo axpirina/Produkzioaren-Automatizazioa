@@ -1,6 +1,6 @@
 ## Produkzioaren Automatizazioa (Oteitza Lizeo Politeknikoa)
 
-Fabrikazio Mekanikoko Diseinua zikloaren barnean txertaturiko automatizazio irakasgaiko GitHub-a. [editor on GitHub](https://www.oteitzalp.eus) 
+Fabrikazio Mekanikoko Diseinua zikloaren barnean txertaturiko automatizazio irakasgaiko GitHub-a. [Oteitza Lizeoa Web](https://www.oteitzalp.eus) 
 
 ### Markdown
 
