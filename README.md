@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Produkzioaren Automatizazioa (Oteitza Lizeo Politeknikoa)
 
-You can use the [editor on GitHub](https://github.com/axpirina/Produkzioaren-Automatizazioa/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Fabrikazio Mekanikoko Diseinua zikloaren barnean txertaturiko automatizazio irakasgaiko GitHub-a. [editor on GitHub](https://www.oteitzalp.eus) 
 
 ### Markdown
 
