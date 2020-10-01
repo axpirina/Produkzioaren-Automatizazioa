@@ -8,7 +8,7 @@ http://www.arduino.cc/en/Tutorial/Debounce
 */
 // Aldagaiak definitu
 const int buttonPin = 2;
-const int ledPin = 8;
+const int ledPin = 13;
 int ledState = LOW; // LED-aren hasierako balioa
 int buttonState; // Sakatzailearen oraingo egoera
 int lastButtonState = LOW; // Sakatzailearen aurreko egoera
