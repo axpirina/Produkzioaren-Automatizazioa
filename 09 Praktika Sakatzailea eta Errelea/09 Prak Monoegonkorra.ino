@@ -10,7 +10,7 @@ Hurrengo programak pultsagailu baten irakurketa egiten du eta Irteera bat kontro
 // Aldagaien deklarazioa      
 
 int botoia= 2;
-int relay= 8;
+int relay= 13;
 int balioa = 0;
 
 // Sarrera-Irteeren Inizializazioa
