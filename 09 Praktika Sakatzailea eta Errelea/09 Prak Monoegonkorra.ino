@@ -24,8 +24,8 @@ void setup()
 void loop() 
   {
  balioaA = digitalRead(botoiaA); //Pultsadorea irakurri
- Serial.print ("Pultsagailuaren balioa=  ");
- Serial.println (balioa);
+ Serial.print ("A Pultsagailuaren balioa=  ");
+ Serial.println (balioaA);
  if(balioaA==0){digitalWrite(relay,LOW);}
  else {digitalWrite(relay,HIGH);}
  delay (150); 
