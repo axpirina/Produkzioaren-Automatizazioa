@@ -15,7 +15,7 @@ int balioaA = 0;
 void setup() 
   {
  Serial.begin (9600);
- pinMode (botoia, INPUT);
+ pinMode (botoiaA, INPUT);
  pinMode (relay, OUTPUT);
   }
 
