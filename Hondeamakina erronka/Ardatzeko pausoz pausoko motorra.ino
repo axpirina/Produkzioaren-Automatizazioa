@@ -14,15 +14,8 @@ modified by Axpi 2021
 // Create a new instance of the AccelStepper class:
 AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
 
-// Sakatzaile, joystick eta balio aldagaien definizioa:
-
+// Joystick eta balio aldagaien definizioa:
 int joystickY = 0;
-int joystickX = 0;
-int i = 0;
-int target = 12000; // Mugimenduaren ibiltartea !!!!!!!!!!!!!!!!!!!!
-float zm = target*0.0015;
-
-int motorState = 0; // motorState = 1 (RUN) eta motorState = 0 (STOP)
 
 void setup() {
   Serial.begin(9600);
@@ -31,17 +24,11 @@ void setup() {
   stepper.setAcceleration(500);
 }
 
-
 void loop() {
   joystickY = analogRead(1); //  position kontrola
-  joystickX = analogRead(0); //  target kontrola
   Serial.print("(Y):  ");
   Serial.println(joystickY);
-  Serial.print("(X):  ");
-  Serial.println(joystickX);
   Serial.println(" ");
- 
-
  
     while (joystickY > 953) {
       // Set the target position:
@@ -57,7 +44,5 @@ void loop() {
       joystickY = analogRead(1);
       delay(0);
     }
-    
-
-    delay(500);
+    delay(5);
   }
