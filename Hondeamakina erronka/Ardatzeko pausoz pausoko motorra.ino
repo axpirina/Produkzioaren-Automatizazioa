@@ -15,10 +15,7 @@ modified by Axpi 2021
 AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
 
 // Sakatzaile, joystick eta balio aldagaien definizioa:
-int balioaA = 1;
-int balioaB = 1;
-int balioaC = 1;
-int balioaD = 1;
+
 int joystickY = 0;
 int joystickX = 0;
 int i = 0;
