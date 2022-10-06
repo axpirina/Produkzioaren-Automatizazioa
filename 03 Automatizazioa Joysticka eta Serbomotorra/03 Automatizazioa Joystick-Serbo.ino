@@ -19,8 +19,8 @@ void setup() {
 void loop() {
   
   x = analogRead(0);           // Irakurketa 10 bit-etan (0-1023) balio artean
-  angelua = map(x, 0, 1023, 0, 180); // Irteerarako mappeatu 8 bit-etara (0-255) balio artean
   
+  angelua = map(x, 0, 1023, 0, 180); // Serie monitorean Serboren angelua idatzi
   Serial.print("Serbo angelua:   ");
   Serial.println(angelua);
   Serial.println(" ");
