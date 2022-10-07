@@ -13,7 +13,7 @@ int angeluaSerbo = 90;
 
 void setup() {
   Serial.begin(9600);
-  Horizontala.attach(6); // Serbo horizontala konektatutzen du Arduinoko 6. Pin-era
+  Horizontala.attach(11); // Serbo horizontala konektatutzen du Arduinoko 6. Pin-era
 }
 
 void loop() {
